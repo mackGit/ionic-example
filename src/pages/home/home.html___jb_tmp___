@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <!--<h2>Firebase Auth</h2>-->
+  <!--<button (click)="deslogar()" ion-button block>Deslogar</button>-->
+  <!--<label class="error-message">{{errorMessage}}</label>-->
+  <h2>Recursos Nativos</h2>
+  <button (click)="abreCamera()" ion-button block>Camera</button>
+  <img src="{{base64Image}}">
+  <h2>Maps & Geolocation</h2>
+  <button (click)="abreMapa()" ion-button block>Teste com Google Maps</button>
+  <h2>SQLITE</h2>
+  <button (click)="abreSqlite()" ion-button block>Teste com sqlite</button>
+  <h2>Realtime Database</h2>
+  <button (click)="abreRealtimeDatabase()" ion-button block>Teste com Realtime Database</button>
+</ion-content>

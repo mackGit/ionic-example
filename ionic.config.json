@@ -1,0 +1,7 @@
+{
+  "name": "TrabalhoIonic",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
